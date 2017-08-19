@@ -1974,6 +1974,36 @@ div#search_wrap div.paging {
     background: none; }
     div#search_wrap div.paging a:hover {
       color: #78e809; }
+    div#search_wrap div.paging a:first-child {
+      overflow: hidden;
+      display: inline-block;
+      width: 1.5em;
+      height: 28px;
+      font-size: 1em;
+      padding: 0;
+      margin: 0;
+      margin-bottom: -9px; }
+      div#search_wrap div.paging a:first-child:before {
+        content: "\e6a2";
+        font-size: 1.5em;
+        margin-right: 1em;
+        padding: 0;
+        line-height: 32px; }
+    div#search_wrap div.paging a:last-child {
+      overflow: hidden;
+      display: inline-block;
+      width: 1.5em;
+      height: 28px;
+      font-size: 1em;
+      padding: 0;
+      margin: 0;
+      margin-bottom: -9px; }
+      div#search_wrap div.paging a:last-child:before {
+        content: "\e699";
+        font-size: 1.5em;
+        margin-right: 1em;
+        padding: 0;
+        line-height: 32px; }
   div#search_wrap div.paging a.on {
     background: none;
     color: #78e809; }
